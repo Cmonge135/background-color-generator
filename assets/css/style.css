@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-color: #2E3135;
+}
+h1 {
+    margin-top: 5%;
+    font-size: 2.8rem;
+    text-align: center;
+}
+p {
+    margin-top: 5.5rem;
+    font-size: 2em;
+}
+.btn {
+    padding: 7px 7px;
+    margin-top: calc(10%);
+    color: black;
+    font-size: 2.3em;
+    border-radius: 10px;
+    transition: .5s ease-in-out;
+}
+.btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+input {
+    display: none;
+}
+/* .myCopy {
+    margin-top: calc(2%);
+    padding: 7px 5px;
+    margin-top: calc(1%);
+    color: black;
+    font-size: 2.3em;
+    border-radius: 20px;
+    transition: .5s ease-in-out;
+}
+.myCopy:hover {
+    transform: scale(1.1);
+} */
+.hex:hover {
+    cursor: pointer;
+}
